@@ -13,4 +13,105 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 8px;
+}
+
+p {
+  line-height: 32px;
+}
+.posts_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posts_HeaderLeft {
+  width: 60%;
+}
+
+.posts_HeaderRight {
+  width: 40%;
+}
+
+.posts_HeaderRight form input {
+  padding: 0.8rem;
+  outline: none;
+  width: 100%;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 65%;
+}
+.post_Item {
+  width: 48%;
+  border: 0.7px solid gray;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 2px;
+  background-color: cornflowerblue;
+}
+
+.post_Item a {
+  background-color: #f2bb13;
+  color: white;
+  padding: 0.5rem;
+}
+.posts_Section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.posts_Left {
+  width: 30%;
+  margin: 1rem 0px;
+  background-color: gray;
+  padding: 1rem;
+  min-height: 200px;
+  max-height: 230px;
+}
+
+.posts_Left h3 {
+  color: white;
+}
+
+.posts_Left p {
+  border-bottom: 1px solid white;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.time {
+  margin-bottom: 16px;
+}
+
+.header_Container {
+  background-color: cornflowerblue;
+  padding: 1rem;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
 }
